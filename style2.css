@@ -1,0 +1,26 @@
+.container
+{
+background-color:white;
+height:400px;
+width:600px;
+position:relative;
+left:375px;
+top:50px;
+border-style:solid;
+}
+.bigButton
+{
+        text-align:center;
+        font-size:25px;
+        border-radius:8px;
+}
+
+table
+{
+	width:80%;
+}
+th,td
+{
+	height:100px;
+	text-align:center;
+}

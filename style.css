@@ -1,0 +1,27 @@
+.container
+{
+background-color:white; 
+height:400px; 
+width:600px; 
+position:relative; 
+left:375px; 
+top:50px; 
+border-style:solid;
+}
+table
+{
+	background-color:white;
+	width:1200px;
+	border:1px solid black;
+	border-collapse:collapse;
+}
+th,td
+{
+	height:4px;
+	width:300px;
+	border:1px solid black;
+        border-collapse:collapse;
+
+	text-align:center;
+}
+

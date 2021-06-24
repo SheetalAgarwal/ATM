@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Account Details</title>
+		<meta http-equiv="content/type" content='text/htm; charset=utf-8;'>
+		<link rel='stylesheet' type="text/css" href="style.css">
+		<script type="text/javascript" src="createAccount.js"></script>
+	</head>
+	<body onload="fetch();">
+	<div style="width:1200px; height:700px; left:30px; top:20px;" class="container">
+           <div style="position:relative; left:10px; top:10px;">
+ 		<form name='account' id="frmid" action="test.html" method="get">
+			Account type: 
+			<br>
+			<input type='radio' value='Savings' id="radio1"  name='acc_type' checked>Savings Account<br>
+			<input type='radio' value='Current' name='acc_type' id="radio2">Current Account<br>
+			<input type='radio' value='Fixed Deposit' name='acc_type' id="radio3">Fixed Deposit Account<br>
+			<input type='radio' value='Recurring' name='acc_type' id="radio4">Recurring Deposit Account<br>
+			<br>
+			Services required:
+			<br>
+			<input type='checkbox' value='ATM Card' name='services'>ATM Card<br>
+			<input type='checkbox' value='Email Alerts' name='services'>Email Alerts<br>
+                        <input type='checkbox' value='Cheque Book' name='services'>Cheque Book<br>
+                        <input type='checkbox' value='Mobile Banking' name='services'>Mobile Banking<br>
+			<input type='checkbox' value='E-Statement' name='services'>E-Statement<br>
+                        <input type='checkbox' value='Internet Banking' name='services'>Internet Banking<br>
+                     	<br>
+			<input type="checkbox" value="declared" name="declaration" required> I hereby declare that the above mentioned details are correct to the best of my knowledge.
+			<br>
+			<input type="submit" value="Submit">
+		</form>
+	   </div>
+	</div>
+	</body>
+</html>

@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+	<head>
+                <title>Sign up</title>
+                <meta https-equiv="content-type" content="text/html; charset=utf-8;">
+		<link rel="stylesheet" type="text/css" href="style.css">
+        <script>
+        </script>
+        </head>
+	<body bgcolor="cyan">
+		<h1> Let's get started... </h1>
+		<div style="width:1200px; height:700px; left:30px; top:20px;" class="container">
+			<div style="position:relative; left:10px; top:10px;">
+				<form name="personal" action="account_details.html" method="get">
+			Username:&nbsp;<input type="text" name="username" id="uname" size=30px required> <br><br>
+			Date of Birth: &nbsp; <input type="date" id="dob" name="DOB" size=10px required><br><br>
+			Gender:<input type="radio" name='G1' value="female" checked>Female &nbsp;
+			<input type="radio" name='G1' value="male">Male <br><br>
+			Email:&nbsp;<input type="text" id="email" size=30px name="Email" required> <br><br>
+			Address: &nbsp;<input type="text" id="address" size=100px name="Address" required> <br><br>
+			Religion: &nbsp; 
+			<select name='religion' required> 
+				<option value='hindu'>Hindu</option>
+				<option value='muslim'>Muslim</option>
+				<option value='christian'>Christian</option>
+				<option value='sikh'>Sikh</option>
+				<option value='other'>Other</option>
+			</select><br><br>
+			Income:&nbsp;<input type="text" id="income" name="Income" size=30px required> <br><br>
+			Educational Qualification:&nbsp;
+			<select name='qualification' required>
+				<option value='Above PHD'>Above PHD</option>
+				<option value='PHD'>PHD</option>
+				<option value='Post Graduate'>Post Graduate</option>
+				<option value='Graduate'>Graduate</option>
+				<option value='H.S'>H.S</option>
+				<option value='Matriculation'>Matriculation</option>
+				<option value='Under Matricualtion'>Under Matriculation</option>
+			</select><br><br>
+			Occupation:&nbsp;<input type="text" id="occupation" name="Occupation" size=30px required>  <br><br>
+			Pan Card No:&nbsp;<input type="text" id="panNo" size=30px name="PanNo" required> <br><br>
+			Aadhar Card No:&nbsp;<input type="text" id="aadharNo" size=30px name="AadharNo" required> <br><br>
+			Senior citizen:&nbsp; <input type='radio' name='S1' value='yes'>Yes &nbsp;
+			<input type='radio' name='S1' value='no' checked>No &nbsp;
+			<br><br>
+			Existing Account:&nbsp; <input type='radio' name='E1' value='yes'>Yes &nbsp;
+			<input type='radio' name='E1' value='no' checked>No  &nbsp;
+                        <br><br>
+			<input type="submit" value='Next'>
+		</form>
+		</div>
+		</div>
+	</body>
+</html>
